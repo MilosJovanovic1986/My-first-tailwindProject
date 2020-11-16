@@ -1,12 +1,9 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
   theme: {
-    extend: {},
+    extend: {}
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+  },
+  plugins: []
 }
